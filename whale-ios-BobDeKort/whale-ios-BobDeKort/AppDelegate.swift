@@ -15,7 +15,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        
+//        let isLoggedin = UserDefaults.standard.value(forKey: "user_token")
+        let isLoggedin = false
+//        if isLoggedin as? String != nil {
+        if isLoggedin {
+            let tabbarController = UITabBarController()
+            
+            let layout = UICollectionViewFlowLayout()
+            let homeController = UINavigationController(rootViewController: HomeController(collectionViewLayout: layout))
+            
+            homeController.tabBarItem = UITabBarItem(title: "Home", image: UIImage(named: "home"), selectedImage: UIImage(named: "homeSelected"))
+            
+            tabbarController.viewControllers = [homeController]
+            
+            window?.rootViewController = tabbarController
+        } else {
+            
+            let loginViewController = UINavigationController(rootViewController: LoginViewController())
+            window?.rootViewController = loginViewController
+        }
+        
         return true
     }
 

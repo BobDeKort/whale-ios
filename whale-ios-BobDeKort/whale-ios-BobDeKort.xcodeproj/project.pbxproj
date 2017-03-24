@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15EA4C725AA3E1967C364380 /* Pods_whale_ios_BobDeKort.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16567E57B177CA6660EB366 /* Pods_whale_ios_BobDeKort.framework */; };
 		C433958B1E8047D900E3EF92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433958A1E8047D900E3EF92 /* AppDelegate.swift */; };
-		C433958D1E8047D900E3EF92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433958C1E8047D900E3EF92 /* ViewController.swift */; };
+		C433958D1E8047D900E3EF92 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433958C1E8047D900E3EF92 /* HomeController.swift */; };
 		C43395901E8047D900E3EF92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C433958E1E8047D900E3EF92 /* Main.storyboard */; };
 		C43395921E8047D900E3EF92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C43395911E8047D900E3EF92 /* Assets.xcassets */; };
 		C43395951E8047D900E3EF92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C43395931E8047D900E3EF92 /* LaunchScreen.storyboard */; };
+		C433959E1E80546A00E3EF92 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433959C1E80546A00E3EF92 /* LoginViewController.swift */; };
+		C433959F1E80546A00E3EF92 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C433959D1E80546A00E3EF92 /* LoginViewController.xib */; };
+		C4BA8DAC1E82F0760028B659 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA8DAB1E82F0760028B659 /* HomeCollectionViewCell.swift */; };
+		C4BA8DAE1E82F19F0028B659 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA8DAD1E82F19F0028B659 /* APIClient.swift */; };
+		C4BA8DB11E82FE770028B659 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA8DAF1E82FE770028B659 /* SignupViewController.swift */; };
+		C4BA8DB21E82FE770028B659 /* SignupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4BA8DB01E82FE770028B659 /* SignupViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D054DAE2B2EFFEF70AB9253 /* Pods-whale-ios-BobDeKort.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whale-ios-BobDeKort.release.xcconfig"; path = "Pods/Target Support Files/Pods-whale-ios-BobDeKort/Pods-whale-ios-BobDeKort.release.xcconfig"; sourceTree = "<group>"; };
+		83E59A27007FC428C132CF27 /* Pods-whale-ios-BobDeKort.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whale-ios-BobDeKort.debug.xcconfig"; path = "Pods/Target Support Files/Pods-whale-ios-BobDeKort/Pods-whale-ios-BobDeKort.debug.xcconfig"; sourceTree = "<group>"; };
+		B16567E57B177CA6660EB366 /* Pods_whale_ios_BobDeKort.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_whale_ios_BobDeKort.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43395871E8047D900E3EF92 /* whale-ios-BobDeKort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "whale-ios-BobDeKort.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C433958A1E8047D900E3EF92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C433958C1E8047D900E3EF92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C433958C1E8047D900E3EF92 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		C433958F1E8047D900E3EF92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C43395911E8047D900E3EF92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C43395941E8047D900E3EF92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C43395961E8047D900E3EF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C433959C1E80546A00E3EF92 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C433959D1E80546A00E3EF92 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		C4BA8DAB1E82F0760028B659 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		C4BA8DAD1E82F19F0028B659 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		C4BA8DAF1E82FE770028B659 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		C4BA8DB01E82FE770028B659 /* SignupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignupViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15EA4C725AA3E1967C364380 /* Pods_whale_ios_BobDeKort.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		160C7B4023FD7AC91C883648 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B16567E57B177CA6660EB366 /* Pods_whale_ios_BobDeKort.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2172086DA2AF8903F44788F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83E59A27007FC428C132CF27 /* Pods-whale-ios-BobDeKort.debug.xcconfig */,
+				0D054DAE2B2EFFEF70AB9253 /* Pods-whale-ios-BobDeKort.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C433957E1E8047D800E3EF92 = {
 			isa = PBXGroup;
 			children = (
 				C43395891E8047D900E3EF92 /* whale-ios-BobDeKort */,
 				C43395881E8047D900E3EF92 /* Products */,
+				2172086DA2AF8903F44788F2 /* Pods */,
+				160C7B4023FD7AC91C883648 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +90,60 @@
 		C43395891E8047D900E3EF92 /* whale-ios-BobDeKort */ = {
 			isa = PBXGroup;
 			children = (
+				C43395A31E80556E00E3EF92 /* Networking */,
+				C43395A21E80553700E3EF92 /* Extentions */,
+				C43395A01E80552200E3EF92 /* UI */,
 				C433958A1E8047D900E3EF92 /* AppDelegate.swift */,
-				C433958C1E8047D900E3EF92 /* ViewController.swift */,
 				C433958E1E8047D900E3EF92 /* Main.storyboard */,
 				C43395911E8047D900E3EF92 /* Assets.xcassets */,
 				C43395931E8047D900E3EF92 /* LaunchScreen.storyboard */,
 				C43395961E8047D900E3EF92 /* Info.plist */,
 			);
 			path = "whale-ios-BobDeKort";
+			sourceTree = "<group>";
+		};
+		C43395A01E80552200E3EF92 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C43395A11E80552800E3EF92 /* Scenes */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		C43395A11E80552800E3EF92 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				C43395A41E80559700E3EF92 /* Login Scene */,
+				C433958C1E8047D900E3EF92 /* HomeController.swift */,
+				C4BA8DAB1E82F0760028B659 /* HomeCollectionViewCell.swift */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		C43395A21E80553700E3EF92 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extentions;
+			sourceTree = "<group>";
+		};
+		C43395A31E80556E00E3EF92 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C4BA8DAD1E82F19F0028B659 /* APIClient.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		C43395A41E80559700E3EF92 /* Login Scene */ = {
+			isa = PBXGroup;
+			children = (
+				C433959C1E80546A00E3EF92 /* LoginViewController.swift */,
+				C433959D1E80546A00E3EF92 /* LoginViewController.xib */,
+				C4BA8DAF1E82FE770028B659 /* SignupViewController.swift */,
+				C4BA8DB01E82FE770028B659 /* SignupViewController.xib */,
+			);
+			name = "Login Scene";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C43395991E8047D900E3EF92 /* Build configuration list for PBXNativeTarget "whale-ios-BobDeKort" */;
 			buildPhases = (
+				732851C1213D58FAD12086AD /* [CP] Check Pods Manifest.lock */,
 				C43395831E8047D800E3EF92 /* Sources */,
 				C43395841E8047D800E3EF92 /* Frameworks */,
 				C43395851E8047D800E3EF92 /* Resources */,
+				DE7E2EAD63EE592A455251C8 /* [CP] Embed Pods Frameworks */,
+				48E2AD999EA675B685BEA66D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +209,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C433959F1E80546A00E3EF92 /* LoginViewController.xib in Resources */,
+				C4BA8DB21E82FE770028B659 /* SignupViewController.xib in Resources */,
 				C43395951E8047D900E3EF92 /* LaunchScreen.storyboard in Resources */,
 				C43395921E8047D900E3EF92 /* Assets.xcassets in Resources */,
 				C43395901E8047D900E3EF92 /* Main.storyboard in Resources */,
@@ -132,13 +219,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		48E2AD999EA675B685BEA66D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-whale-ios-BobDeKort/Pods-whale-ios-BobDeKort-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		732851C1213D58FAD12086AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE7E2EAD63EE592A455251C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-whale-ios-BobDeKort/Pods-whale-ios-BobDeKort-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C43395831E8047D800E3EF92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C433958D1E8047D900E3EF92 /* ViewController.swift in Sources */,
+				C4BA8DB11E82FE770028B659 /* SignupViewController.swift in Sources */,
+				C433959E1E80546A00E3EF92 /* LoginViewController.swift in Sources */,
+				C433958D1E8047D900E3EF92 /* HomeController.swift in Sources */,
 				C433958B1E8047D900E3EF92 /* AppDelegate.swift in Sources */,
+				C4BA8DAE1E82F19F0028B659 /* APIClient.swift in Sources */,
+				C4BA8DAC1E82F0760028B659 /* HomeCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +398,7 @@
 		};
 		C433959A1E8047D900E3EF92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83E59A27007FC428C132CF27 /* Pods-whale-ios-BobDeKort.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3FX26JCU7E;
@@ -272,6 +412,7 @@
 		};
 		C433959B1E8047D900E3EF92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D054DAE2B2EFFEF70AB9253 /* Pods-whale-ios-BobDeKort.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3FX26JCU7E;
@@ -302,6 +443,7 @@
 				C433959B1E8047D900E3EF92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
